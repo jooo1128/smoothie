@@ -602,6 +602,7 @@
     context.beginPath();
     context.rect(0, 0, dimensions.width, dimensions.height);
     context.clip();
+    context.restore();
 
     // Clear the working area.
     context.save();
